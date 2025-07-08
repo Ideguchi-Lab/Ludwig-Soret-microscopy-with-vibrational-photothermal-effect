@@ -2,12 +2,12 @@
 
 This repository includes source codes used in the paper;
 
-Toda, Keiichiro, Masaharu Takarada, Genki Ishigane, Hiroyuki Shimada, Venkata Ramaiah Badarla, Kohki Okabe, and Takuro Ideguchi. 2024. “Label-Free Mid-Infrared Photothermal Microscopy Revisits Intracellular Thermal Dynamics: What Do Fluorescent Nanothermometers Measure?” arXiv [Physics.Bio-Ph]. arXiv. http://arxiv.org/abs/2406.16265.
+Toda, Keiichiro and Takuro Ideguchi. 2024. “Ludwig-Soret microscopy with vibrational photothermal effect” arXiv [Physics.Bio-Ph]. arXiv. https://arxiv.org/pdf/2502.04578.
 
 
 ## Overview
 
-We can access the results in Fig. 2 and 3 in the main manuscript and related results.
+We can access the results in Fig. 3, 4 and 5 in the main manuscript and related results.
 The instructions are included in each directory(see `How_to_run_code.txt`).
 
 ## Software Requirements
