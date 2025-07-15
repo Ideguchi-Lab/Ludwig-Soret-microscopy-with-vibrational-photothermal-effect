@@ -50,9 +50,8 @@ One has to edit a `path` variable in the `fig2/thermal_diffusivity_experiment_wa
 
 ### Data for Fig.3
 
-The experimental data is included in `sample1.zip`, `bg.zip`,`av.zip` so please unzip this.
+If you want to obtain the dataset, so please ask Takuro Ideguchi.
 
-One has to edit `path` variables in the `dual_pump_v2_small.m`, `impulsive_OFF_small.m`, `original_refractive_index_small.m`, `rapid_temperature_rise_by_continuous_heating_small.m`, and `ref_v2_small.m` to the directory where the data is extracted.
 
 ## Test Environment
 
