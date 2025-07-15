@@ -1,0 +1,17 @@
+Before rinning the code, you should modify the path to one where dataset exists.
+
+Fig.3(a-e) 
+
+1. Run 'off_paper.m' →　'Untitled_paper.m' to generate experiment results
+Output: cell_off_zint.mat (depth_integrated RI image), cell_off_RI.mat (RI image), cell1_pt_zint.mat (depth_integrated RI change images), cell1_pt_RI.mat (RI change images)
+** please check the path
+
+2. Run 'for_simulation_paper.m' to generate files used for diffusion simulation
+Output: temporal_evolution_drymass.csv (experimental temporal evolution of depth_integrated drymass concentration), mask_crop.csv (cropped area of nuclear region), initial_con_drymass.csv (depth_integrated drymass concentration before heating)
+temperature.csv (steady state temperature-change image)
+
+3. Run 'soret_v3_paper.py' to calcualte soret and diffusion coefficient and to generate simulation images (sim_0s-24s) and temporal evolution (sim_temporal)
+Output: sim_0s-sim24s (simulation images at 0-2.4s), sim_temporal.csv (simulation temporal evolution), Fitted D1, St (estimated diffusion and Soret coefficient)
+** Make sure that files generated in 2 must be included in the directry where you run this python code.
+
+4. Run 'fig_paper.m' to generate images related to figure 3 (a-e) 

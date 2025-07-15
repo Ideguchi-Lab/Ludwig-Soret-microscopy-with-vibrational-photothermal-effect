@@ -1,0 +1,51 @@
+Before rinning the code, you should modify the path to one where dataset exists.
+
+Fig.3f 
+
+Output:  drymass (fg/um^2)
+** Make sure that path, (y1,y2,x1,x2), and (xcenter,ycenter,zcenter) are set to corresponding cells.
+Make sure that you change the following part (cell_off_zint = cell_off_zint-mean2(cell_off_zint(138:219,46:96));%control1)
+
+
+1. Run 'off_paper1.m' (for control1-3, RNA1-3)
+
+or
+
+1. Run 'off_paper2.m' (for control4-6, RNA4-6)
+
+or
+
+1. Run 'off_paper3.m' (for control7-9, RNA7-9)
+
+or
+
+1. Run 'off_paper4.m' (for control10-13)
+
+or
+
+1. Run 'off_paper5.m' (for control14, RNA10-12)
+
+
+
+Fig.3g
+Output:  drymass change per K (fg/um^2/K) 
+
+1. Run 'off_paper1.m' →　'Untitled_paper1.m' to generate experiment results (for control1-3, RNA1-3)
+
+or
+
+1. Run 'off_paper2.m' →　'Untitled_paper2.m' to generate experiment results (for control4-6, RNA4-6)
+
+or
+
+1. Run 'off_paper3.m' →　'Untitled_paper3.m' to generate experiment results (for control7-9, RNA7-9)
+
+or 
+
+1. Run 'off_paper4.m' →　'Untitled_paper4.m' to generate experiment results (for control10-13)
+
+or
+
+1. Run 'off_paper5.m' →　'Untitled_paper5.m' to generate experiment results (for control14, RNA10-12)
+
+** Refer to the results for all cells in 'analysis.mat' 
