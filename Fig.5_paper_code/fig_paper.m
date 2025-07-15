@@ -69,32 +69,25 @@ a(6:125)=a(6:125)-a(6);
 figure;plot(([1:150]-5)*0.02,a,'o')
 
 %% time-lapse change of Delta_sigma/sigma (%) (Fig.5c)
-time=[0 0.5 1 1.5 2.5 3.5 5 6] % hour
-raw=[4.94 4.595 4.468 4.280 4.335 4.834 7.8E-5 1.6E-4];
-ratio=[3.02 3.07 3.226 3.219 3.567 4.03 0.06 0.127];
-figure;plot(time, raw)
-hold on
-yyaxis right
-plot(time, ratio)
 
 % Cell1 
-time2=[0 35/60 1+18/60 1+53/60 2+47/60 3+52/60 5+27/60 6+27/60];% hour
-delta_cp2=[3.02 3.07 3.10 3.26 3.40 4.03 0.13 0.016];% (%)
+time1=[0 35/60 1+18/60 1+53/60 2+47/60 3+52/60 5+27/60 6+27/60];% hour
+change1=[3.02 3.07 3.10 3.26 3.40 4.03 0.13 0.016];% (%)
 
 % Cell2 
-time1=[0 34/60 1+11/60 1+53/60 2+31/60 3];% hour
-delta_cp1=[3.18 2.88 2.16 1.84 0.79 0.18];% (%)
+time2=[0 34/60 1+11/60 1+53/60 2+31/60 3];% hour
+change2=[3.18 2.88 2.16 1.84 0.79 0.18];% (%)
 
 % Cell3
 time3=[0 30/60 1+10/60 2+23/60]% hour
-delta_cp3=[2.91 3.15 2.27 1.58]% (%)
+change3=[2.91 3.15 2.27 1.58]% (%)
 
 % Cell4 
 time4=[0 32/60 1+10/60 1+42/60 2+14/60]% hour
-delta_cp4=[3.89 2.20 0.84 0.86 0.03]% (%)
+change4=[3.89 2.20 0.84 0.86 0.03]% (%)
 
-figure;plot(time1,delta_cp1,'o')
+figure;plot(time1,change1,'o')
 hold on
-plot(time2,delta_cp2,'o')
-plot(time3,delta_cp3,'o')
-plot(time4,delta_cp4,'o')
+plot(time2,change2,'o')
+plot(time3,change3,'o')
+plot(time4,change4,'o')
