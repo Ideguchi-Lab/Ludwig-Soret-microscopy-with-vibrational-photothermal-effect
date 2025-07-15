@@ -40,10 +40,10 @@ See the `Test Environment` section below for necessary tools.
 
 ### Data for Fig.2
 
-The experimental data is included in `water1.zip`, so please unzip this.
+The experimental data is included in `COS0_nuc.zip` from the data repository 'XXX', so please unzip this.
 
 ```sh
-unzip water1.zip
+unzip COS0_nuc.zip
 ```
 
 One has to edit a `path` variable in the `fig2/thermal_diffusivity_experiment_water.py#L22` to the directory where the data is extracted.
