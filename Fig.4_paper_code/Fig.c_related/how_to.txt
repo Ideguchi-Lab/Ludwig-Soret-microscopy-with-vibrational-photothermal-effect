@@ -1,0 +1,26 @@
+Before rinning the code, you should modify the path to one where dataset exists.
+
+Fig.4(c) 
+
+Output:  -delta_sigma / sigma / Temperature change (/K) 
+
+1. Run 'off_paper.m' →　'Untitled_paper.m' to generate experiment results (for COS2_nuc, COS2_cyto, COS3_cyto)
+
+
+or
+
+1. Run 'off_paper2.m' →　'Untitled_paper2.m' to generate experiment results (for COS3_nuc, COS4_nuc, COS4_cyto, COS5_cyto, COS6_cyto, COS7_cyto)
+
+or
+
+1. Run 'off_paper3.m' →　'Untitled_paper3.m' to generate experiment results (for COS5_nuc, COS6_nuc, COS8_cyto, COS9_cyto, COS10_cyto)
+
+or 
+
+1. Run 'off_paper4.m' →　'Untitled_paper4.m' to generate experiment results (for COS7_nuc, COS8_nuc, COS9_nuc, COS10_nuc, COS11_nuc, COS11_cyto)
+
+** Make sure that (y1,y2,x1,x2) and (xcenter,ycenter,zcenter) are set to corresponding cells.
+** COS0_nuc: 'off_paper.m' →　'Untitled_paper.m' in the folder of Fig. 3a-e data
+** COS1_nuc: 'off_paper.m' →　'Untitled_paper.m' in the folder of Fig. 4a data
+** COS1_nuc: 'off_paper.m' →　'Untitled_paper.m' in the folder of Fig. 4b+d data
+** Refer to the results for all cells in 'analysis.mat' 

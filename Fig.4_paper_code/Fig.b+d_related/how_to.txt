@@ -1,0 +1,9 @@
+Before rinning the code, you should modify the path to one where dataset exists.
+
+Fig.4(b & d) 
+
+1. Run 'off_paper.m' →　'Untitled_paper.m' to generate experiment results
+
+2. Run 'fig_b' to generate images related to figure 4 (b)
+
+2. Run 'fig_d' to generate images related to figure 4 (d)
