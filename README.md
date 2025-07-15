@@ -38,7 +38,7 @@ See the `Test Environment` section below for necessary tools.
 
 ## How to prepare data
 
-### Data for Fig.2
+### Data for Fig.3a-e
 
 The experimental data is included in `COS0_nuc.zip` from the data repository 'XXX', so please unzip this.
 
@@ -48,7 +48,7 @@ unzip COS0_nuc.zip
 
 One has to edit a `path` variable in the `fig2/thermal_diffusivity_experiment_water.py#L22` to the directory where the data is extracted.
 
-### Data for Fig.3
+### Data for Fig. 3f-g, 4, 5
 
 If you want to obtain the dataset, so please ask Takuro Ideguchi.
 
