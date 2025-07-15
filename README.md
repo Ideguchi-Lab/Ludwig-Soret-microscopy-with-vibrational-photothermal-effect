@@ -46,7 +46,7 @@ The experimental data is included in `COS0_nuc.zip` from the data repository 'XX
 unzip COS0_nuc.zip
 ```
 
-One has to edit a `path` variable in the `fig2/thermal_diffusivity_experiment_water.py#L22` to the directory where the data is extracted.
+One has to edit a `path` to the directory where the data is extracted.
 
 ### Data for Fig. 3f-g, 4, 5
 
