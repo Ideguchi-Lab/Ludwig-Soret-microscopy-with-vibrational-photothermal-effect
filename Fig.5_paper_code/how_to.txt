@@ -1,0 +1,16 @@
+Before rinning the code, you should modify the path to one where dataset exists.
+
+Fig.5a-b
+1. Run 'off_paper.m' →　'Untitled_paper.m' in Cell1
+2. Run fig_paper
+
+
+Fig.5c
+Output:  delta_sigma / sigma (%) (cell1-4)
+
+1. Run 'off_paper.m' →　'Untitled_paper.m' to generate experiment results 
+
+** Refer to the results for all cells in 'fig.mat' 
+
+
+
